@@ -1,13 +1,14 @@
 # Mario Maze Challenge
 
-##Design a maze with following rules.
+### Design a maze with following rules.
 
-1. Maze is divided into cells with custom width and height (Already Implemented).
+**Already Implemented:**
 
-2. Each cell of the maze can be either empty or Food for Mario (Already
-Implemented).
+1. Maze is divided into cells with custom width and height.
 
-######To Be Implemented:
+2. Each cell of the maze can be either empty or Food for Mario.
+
+**To Be Implemented:**
 1. Mario will be starting from a random cell once any of the direction arrow is
 pressed.
 
@@ -22,6 +23,9 @@ from which he is coming from.
 the total number of moves to collect all the food.
 
 **Constraints**
+
 A. 2 <= boardWidth, boardHeight <= 20.
+
 B. Cells with food is generated automatically.
+
 C. Not a single line to be changed from the existing code.
